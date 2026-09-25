@@ -15,16 +15,33 @@ package id.ac.polinema.oop;
  */
 public class Menu {
 
+    /**
+     * Creates an empty menu: initialize the array with capacity 10
+     * and the counter with 0.
+     */
     MenuItem[] items;
     int itemCount;
+    
+    public Menu() {
+        throw new UnsupportedOperationException("Not implemented yet");
+    }
 
-    public Menu(MenuItem item, int itemCount) {
-        this.items = items;
-        this.itemCount = itemCount;
+    /**
+     * Adds an item at index {@code itemCount}, then increments the counter.
+     * When the menu is full (10 items), do nothing.
+     *
+     * @param item the menu item to add
+     */
+    public void addMenuItem(MenuItem item) {
+        throw new UnsupportedOperationException("Not implemented yet");
     }
-    public void addMenuItem(MenuItem items) {
-        items = items;
-    }
+
+    /**
+     * Searches the stored items by exact name.
+     *
+     * @param name item name to look for
+     * @return the matching MenuItem, or {@code null} when not found
+     */
     public MenuItem findItem(String name) {
         throw new UnsupportedOperationException("Not implemented yet");
     }

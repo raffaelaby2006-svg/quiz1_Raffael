@@ -18,9 +18,11 @@ public class Customer {
      * @param customerId customer identifier
      * @param name       customer's name
      */
+
+     String customerId;
+     String name;
     public Customer(String customerId, String name) {
-        customerId = customerId;
-        name = name;
+        throw new UnsupportedOperationException("Not implemented yet");
     }
 
     public String getCustomerId() {

@@ -8,13 +8,13 @@ public class OrderItem {
         this.menuItem = menuItem;
         this.quantity = quantity;
     }
-    public void OrderItem(){
+    public menuItem OrderItem(MenuItem menuItem){
 
     }
-    public void getMenuItem(){
+    public MenuItem getMenuItem(){
 
     }
-    public void getQuantity(){
+    public int getQuantity(){
 
     }
     public void getSubtotal(){

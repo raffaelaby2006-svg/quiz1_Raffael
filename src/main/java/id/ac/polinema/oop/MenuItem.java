@@ -1,5 +1,7 @@
 package id.ac.polinema.oop;
 
+import javax.lang.model.element.Name;
+
 /**
  * A single item on the cafe menu.
  *
@@ -22,17 +24,18 @@ public class MenuItem {
      */
     String name;
     double price;
-    
+
     public MenuItem(String name, double price) {
-        throw new UnsupportedOperationException("Not implemented yet");
+        this.name = name;
+        this.price = price;
     }
 
-    public String getName() {
-        throw new UnsupportedOperationException("Not implemented yet");
+    public String getName(String name) {
+        name = Name;
     }
 
     public double getPrice() {
-        throw new UnsupportedOperationException("Not implemented yet");
+        
     }
 
     /**
@@ -42,6 +45,6 @@ public class MenuItem {
      * @param price new price in Rupiah
      */
     public void setPrice(double price) {
-        throw new UnsupportedOperationException("Not implemented yet");
+        price = price;
     }
 }

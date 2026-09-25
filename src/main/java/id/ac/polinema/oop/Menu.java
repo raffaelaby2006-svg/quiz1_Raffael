@@ -21,9 +21,9 @@ public class Menu {
      */
     MenuItem[] items;
     int itemCount;
-    
+
     public Menu() {
-        throw new UnsupportedOperationException("Not implemented yet");
+
     }
 
     /**

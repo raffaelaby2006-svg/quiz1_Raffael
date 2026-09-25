@@ -10,14 +10,14 @@ public class Order {
         this.items = items;
         this.itemCount = itemCount;
     }
-    public void getCustomer(){
+    public void getCustomer(Customer Customer){
+        customer = Customer;
+    }
+    public void addItem(MenuItem item, quantity int){
         
     }
-    public void addItem(){
-
-    }
-    public void getItemCount(){
-
+    public void getItemCount(int ItemCount){
+        itemCount = ItemCount;
     }
     public void getTotal(){
 

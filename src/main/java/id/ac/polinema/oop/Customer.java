@@ -22,11 +22,12 @@ public class Customer {
      String customerId;
      String name;
     public Customer(String customerId, String name) {
-        throw new UnsupportedOperationException("Not implemented yet");
+        this.customerId = customerId;
+        this.name = name;
     }
 
     public String getCustomerId() {
-        throw new UnsupportedOperationException("Not implemented yet");
+        getCustomerId()
     }
 
     public String getName() {

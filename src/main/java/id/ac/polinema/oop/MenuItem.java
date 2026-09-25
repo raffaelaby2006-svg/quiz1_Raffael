@@ -13,14 +13,12 @@ package id.ac.polinema.oop;
  */
 public class MenuItem {
 
-    /**
-     * Creates a menu item and stores both parameters into the fields.
-     *
-     * @param name  item name
-     * @param price price in Rupiah
-     */
+    String name;
+    double price;
+
     public MenuItem(String name, double price) {
-        throw new UnsupportedOperationException("Not implemented yet");
+        name = name;
+        price = price;
     }
 
     public String getName() {
@@ -38,6 +36,6 @@ public class MenuItem {
      * @param price new price in Rupiah
      */
     public void setPrice(double price) {
-        throw new UnsupportedOperationException("Not implemented yet");
+        if(i<);
     }
 }

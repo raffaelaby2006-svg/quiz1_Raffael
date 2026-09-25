@@ -19,7 +19,8 @@ public class Customer {
      * @param name       customer's name
      */
     public Customer(String customerId, String name) {
-        throw new UnsupportedOperationException("Not implemented yet");
+        customerId = customerId;
+        name = name;
     }
 
     public String getCustomerId() {
